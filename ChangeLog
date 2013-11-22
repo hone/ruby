@@ -1,3 +1,8 @@
+Fri Nov 22 12:46:08 2013  Nobuyoshi Nakada  <nobu@ruby-lang.org>
+
+	* util.c (ruby_strtod): ignore too long fraction part, which does not
+	  affect the result.
+
 Fri Apr 20 12:40:19 2012  Eric Hodel  <drbrain@segment7.net>
 
 	* lib/rubygems/ssl_certs/AddTrustExternalCARoot.pem:  Removed to avoid
